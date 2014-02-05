@@ -1,0 +1,226 @@
+/*ALLE bodys*/
+body {
+    font-family: Euphemia; sans-serif;
+    color:rgb(6, 118, 0);
+    font-size: 40px;
+    text-align:center;
+    background-color: rgb(213, 234, 212);
+    margin: 0 1em;
+}
+
+/*nur body auf startseite*/
+body.hintergrundlogo {
+    background-image: url("spinne_bearbeitet.png");
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: 44% auto;
+   
+}
+
+
+h1 {
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+
+h2 {
+  font-size: 30px;
+  color: black;
+}
+
+h3 {
+  font-size: 15px;
+  color: black;
+}
+
+
+figcaption {
+  margin-top: 0,5em;
+  color: rgb(98, 98, 98);
+  font-size: 15px;
+}
+
+/*alle links (a elemente)*/
+a {
+  text-decoration:none;
+  color: rgb(0, 0, 0)
+}
+
+*,
+*:before,
+*:after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+html,
+body {
+height: 100%;
+
+}
+
+#wrapper {
+min-height: 100%;
+height: auto;
+margin: 0 auto -2em;
+padding: 0 0 2em;
+}
+
+footer {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  background: rgb(255, 255, 255);
+  width: 5em;
+  height: 2em;
+  margin-left:50%;
+  position:relative;
+  left:-2em;
+  margin-top: 5px;
+
+}
+
+/*alle terms in definition lists*/
+dl dt {
+    font-weight: bold;
+    text-align:center;
+    font-size:32px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/*alle descriptions in definition lists*/
+dl dd {
+    text-align: center;
+    font-size:30px;
+    color: rgb(63, 63, 63);
+    margin-right: 15px;
+    margin-top: 1px
+}
+
+.name { 
+    font-size: 50px;
+    text-align:center;
+    margin-top: 5%;
+}
+
+.navigation {
+  border: 1px solid black;
+  background: rgb(213, 234, 212);
+  width: 10em;
+  height: 3em;
+  margin-left:50%;
+  position:relative;
+  left:-5em;
+  margin-top: 5px;
+
+}
+    
+.portfoliolinks {
+    margin-top: 3%;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Euphemia;
+    color: rgb(98, 98, 98);
+}
+
+.figcaption {
+  margin-top: 1em;
+  color: rgb(98, 98, 98);
+}
+
+.works a {
+    margin-top: 5px;
+    font-family: Euphemia;
+    color: rgb(98, 98, 98);
+    font-size: 25px;
+}
+
+.werkgruppeschrift {
+  float: none;
+  clear: both;
+  margin-top: 2em;
+}
+
+.werkgruppemandala {
+  float: none;
+  clear: both;
+  margin-top: 1em;
+}
+
+.werkgruppeschrift figure {
+  float: left;
+  margin: 0.2em;
+}
+
+.werkgruppemandala figure {
+  float: left;
+  margin: 20px;
+}
+
+/*alle bilder in figures in werkgruppen*/
+.werkgruppeschrift figure img {
+    height: 400px;
+    width: auto;
+}
+
+.werkgruppemandala figure img {
+    height: 500px;
+    width: auto;
+}
+
+.werkgruppeschrift .werkcaption {
+  border: 1px solid black;
+  background: rgb(213, 234, 212);
+  font-size: 25px;
+  width: 16em;
+  height: 8em;
+  margin-left: 35em;
+  clear:both;
+  float: none;
+  text-align:center;
+  color: black;
+}
+
+.werkgruppemandala .werkcaption {
+  border: 1px solid black;
+  background: rgb(213, 234, 212);
+  font-size: 25px;
+  width: 16em;
+  height: 8em;
+  margin-left: 35em;
+  clear:both;
+  float:none;
+  text-align:center;
+  color: black;
+}
+
+.Phönix .werkcaption {
+  border: 1px solid black;
+  background: rgb(213, 234, 212);
+  font-size: 25px;
+  width: 16em;
+  height: 10em;
+  margin-left: 35em;
+  clear:both;
+  float:none;
+  text-align:center;
+  color: black;
+}
+
+.bilderobject {
+    height: 400px;
+    width: auto;
+}
+
+.kontakt {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
