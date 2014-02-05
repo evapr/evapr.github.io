@@ -4,7 +4,7 @@
 /*ALLE bodys*/
 body {
     font-family: 'Oswald', serif;
-    font-weight: 400; /* normal */
+    font-weight: 300; /* normal */
     color: rgb(6, 118, 0);
     font-size: 40px;
     text-align:center;
@@ -21,10 +21,14 @@ body.hintergrundlogo {
    
 }
 
+/* alle überschriften */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; /* light */
+}
+
 h1 {
   font-size: 50px;
   margin-top: 30px;
-  font-weight: 400; /* bold */
 }
 
 
@@ -76,7 +80,6 @@ footer {
   text-align: center;
   color: rgb(0, 0, 0);
   font-size: 20px;
-  font-weight: bold;
   background: rgb(255, 255, 255);
   width: 5em;
   height: 2em;
@@ -176,43 +179,20 @@ dl dd {
     width: auto;
 }
 
-.werkgruppeschrift .werkcaption {
+.werkcaption {
   border: 1px solid black;
   background: rgb(213, 234, 212);
   font-size: 25px;
   width: 16em;
   height: 8em;
-  margin-left: 35em;
-  clear:both;
-  float: none;
-  text-align:center;
-  color: black;
-}
-
-.werkgruppemandala .werkcaption {
-  border: 1px solid black;
-  background: rgb(213, 234, 212);
-  font-size: 25px;
-  width: 16em;
-  height: 8em;
-  margin-left: 35em;
-  clear:both;
-  float:none;
+  float: left;
+  clear: both;
   text-align:center;
   color: black;
 }
 
 .Phönix .werkcaption {
-  border: 1px solid black;
-  background: rgb(213, 234, 212);
-  font-size: 25px;
-  width: 16em;
   height: 10em;
-  margin-left: 35em;
-  clear:both;
-  float:none;
-  text-align:center;
-  color: black;
 }
 
 .bilderobject {
